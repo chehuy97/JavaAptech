@@ -1,0 +1,7 @@
+ms01 Nguyen Van An 9/10/1997 Nam
+ms02 Le Nguyen Thi Binh 2/3/1996 Nu
+ms03 Dao Huu Cuong 7/8/1995 Nam
+ms04 Le Cong Minh Dat 6/51997 Nam
+ms05 Tran Em 8/8/1995 Nu
+ms06 Nguyen Thi Hoa 2/2/1996 Nu
+ms07 Ly Nam Kiet 12/11/1995 Nam

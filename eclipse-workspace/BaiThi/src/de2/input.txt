@@ -1,0 +1,5 @@
+01 Nguyen Tran Van A 7/7/1997 Nam 8.5
+02 Tran Van B 2/2/1997 Nam 7
+03 Le Thi C 8/8/1999 Nu 7
+04 Tran Thi Phuong D 4/4/1995 Nu 10
+05 Nguyen E 3/3/1994 Nam 9.5 

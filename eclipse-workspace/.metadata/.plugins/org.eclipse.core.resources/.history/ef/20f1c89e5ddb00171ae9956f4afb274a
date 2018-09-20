@@ -1,0 +1,43 @@
+package de2;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.Statement;
+import java.util.ArrayList;
+
+public class Bai2 {
+	public static void main(String[] args) {
+		String path = "src\\de2\\input.txt";
+		ArrayList<String> mList = new ArrayList<>();
+		try(BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(path)))){
+			String line = br.readLine();
+			StringBuilder sb = new StringBuilder();
+			while(line!=null) {
+				String[] a = line.split("[ ]");
+				for (int i = 1; i <= a.length-4; i++) {
+					sb.append(a[i]+" ");
+				}
+				mList.add(a[0]);
+				mList.add(sb.toString());
+				mList.add(a[a.length-3]);
+				mList.add(a[a.length-2]);
+				mList.add(a[a.length-1]);
+			}
+			for (String string : mList) {
+				System.out.println(string);
+			}
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}
